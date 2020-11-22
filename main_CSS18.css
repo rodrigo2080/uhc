@@ -1,0 +1,13 @@
+body {
+  background-color: #eee;
+}
+
+.grid {
+  display: inline-grid;
+  grid-template-rows: minmax(100px, auto);
+  grid-template-columns: minmax(auto, 50%) 1fr 3em; /*2fr 2fr 2fr; tambien se puede escribir de esta manera donde cada 2fr es una columna*/
+}
+
+.element {
+  background-color: red;
+}

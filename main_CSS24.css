@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 200px;
+}
+
+.primero {
+  flex-grow: 1;
+  flex-basis: 120px;
+  order: 0;
+}
+
+.segundo {
+  background-color: yellow;
+  flex-grow: 1;
+  order: 0;
+}
+
+.tercero {
+  flex-grow: 2;
+  align-self: stretch;
+}
+
+.cuarto {
+  background-color: yellow;
+  flex-grow: 1;
+  order: 0;
+}
+
+.quinto {
+  order: 0;
+  flex-grow: 3;
+}
+
+.sexto {
+  background-color: yellow;
+  flex-grow: 2;
+}

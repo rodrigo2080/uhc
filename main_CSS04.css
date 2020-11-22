@@ -1,0 +1,23 @@
+body {
+  background-color: #eee;
+}
+
+p {
+  font-family: "TImes New Roman";
+  font-style: italic;
+  font-size: 1.5em;
+  color: #222fff;
+  text-align: justify;
+  text-indent: 40px;
+  line-height: 1.7;
+  word-spacing: 10px;
+  text-shadow: 5px 2px 3px rgba(0, 0, 0, .5);
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3em;
+  font-weight: 900;
+}
